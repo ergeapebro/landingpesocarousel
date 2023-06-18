@@ -1,3 +1,38 @@
+.atas {
+  height: 580px;
+}
+.atas1 p {
+  color: #012467;
+}
+.atas2 p {
+  color: #012467;
+}
+.atas3 {
+  height: 220px;
+}
+.atas3 p {
+  color: #012467;
+  text-align: justify;
+}
+.atas3 .deskrip {
+  width: 530px;
+  letter-spacing: 3px;
+  line-height: 65px;
+}
+.atas .deskrip p {
+  line-height: 30px;
+}
+.bawah {
+  height: 223px;
+}
+.bawah p {
+  letter-spacing: 6px;
+  word-spacing: 2px;
+  text-align: center;
+  color: #1053ba;
+  line-height: 45px;
+  font-size: 27px;
+}
 .container {
   width: 1140px;
   height: 661px;
@@ -187,6 +222,15 @@
 }
 
 @media screen and (max-width: 576px) {
+  .tentang {
+    width: 100%;
+  }
+  .home img {
+    display: none;
+  }
+  object {
+    display: none;
+  }
   .box {
     width: 36rem;
   }
